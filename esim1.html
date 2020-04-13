@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+    <script type="text/javascript">
+        /*
+
+         */
+        //alert("First script Block");
+        //alert("First script Block - Second Line");
+    </script>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <script type="text/javascript">
+        //alert("Second script Block");
+    </script>
+    <p>Some more HTML</p>
+    <script type="text/JavaScript">
+        //alert("Third script Block");
+        function doSomething() {
+            alert("Function in Third script Block");
+        }
+
+        function message() {
+            return 'It\'s the information age ';
+        }
+        function displayMessage(msgFunction, person){
+            console.log(msgFunction() + person) //It’s the information age brother!
+        }
+        displayMessage(message, "brother!");
+    </script>
+</body>
+</html>
